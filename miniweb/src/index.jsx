@@ -2,6 +2,16 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
+};
+
 const Header = () => {
   return (
     <header>
@@ -36,16 +46,6 @@ const Footer = () => {
     <footer>
       <p> &copy; Slávka 2022</p>
     </footer>
-  );
-};
-
-const App = () => {
-  return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
   );
 };
 
